@@ -3,7 +3,7 @@
 
 ## 技術架構
 - 前端：使用純 JavaScript、HTML 與 CSS 開發，提供使用者新增、標記完成及刪除待辦事項的直覺介面。  
-- 後端：使用 Python Flask 實作 RESTful API，負責待辦事項的資料處理與管理。  
+- 後端：使用 Python FastAPI 實作 RESTful API，負責待辦事項的資料處理與管理。
 - 資料庫：由後端管理，進行待辦事項資料的存取與持久化。
 
 ## 功能簡介
