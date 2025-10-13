@@ -22,18 +22,18 @@
 - 操作簡單直覺，任務清單動態更新，體驗流暢。
 
 ## 專案結構
-To-do-API/
-├── auth.py # 用戶認證
-├── crud.py # 資料庫操作
-├── database.py # 資料庫連線設定
-├── main.py # Flask 應用啟動點
-├── models.py # 資料模型定義
-├── schemas.py # 資料驗證
+To-do-API/  
+├── auth.py          # 用戶認證  
+├── crud.py          # 資料庫操作  
+├── database.py      # 資料庫連線設定  
+├── main.py          # Flask 應用啟動點  
+├── models.py        # 資料模型定義  
+├── schemas.py       # 資料驗證  
 
-To-do-list/
-├── index.html # 前端主頁面
-├── script.js # 前端邏輯腳本，與後端 API 通訊
-├── styles.css # 樣式表
+To-do-list/  
+├── index.html       # 前端主頁面  
+├── script.js        # 前端邏輯腳本，與後端 API 通訊  
+├── styles.css       # 樣式表  
 
-.gitignore # Git 忽略設定
-README.md # 專案說明文件
+.gitignore            # Git 忽略設定  
+README.md             # 專案說明文件
