@@ -12,16 +12,19 @@ body{
     box-shadow:0 10px 20px rgba(0,0,0,0.1);
 }
 .輸入區域{
-    display:flex;
+    display:block;
     border-radius:25px;
     overflow:hidden;
 }
-.文字欄{
-    flex-grow:1;
+.標題欄,.描述欄{
+    width: 100%;
+    margin-bottom: 10px;
     border:none;
     background-color:#f0f4f8;
     padding:10px 15px;
     outline:none;
+    border-radius: 25px;
+    box-sizing: border-box;
 }
 .按鈕{
     background-color:#9a53ac;
@@ -29,6 +32,7 @@ body{
     color:white;
     padding:10px 15px;
     cursor:pointer;
+    float: right;
 }
 .清單{
     list-style-type:none;
